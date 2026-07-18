@@ -94,33 +94,88 @@ tailwind.config = {
 
   <section class="bg-background py-20">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div class="grid gap-6 md:grid-cols-2">
+      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      
+      <!-- 1. Defin İşlemi -->
+      <div class="flex flex-col rounded-2xl border border-border bg-card overflow-hidden transition-shadow hover:shadow-lg">
+        <!-- Geçici Görsel Alanı (Sonra src ekleyebilirsin) -->
+        <div class="h-48 w-full bg-muted flex items-center justify-center text-muted-foreground text-sm border-b border-border">
+          <span>Görsel Alanı</span>
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="text-xl font-semibold text-card-foreground">Defin İşlemi</h3>
+            <p class="mt-3 text-sm leading-relaxed text-muted-foreground">Evcil dostlarımızın vedası da, hayatları kadar özel ve saygıdeğer olmalıdır. Huzur Hakkı Pet Mezarlığı olarak, minik dostlarımıza veda sürecini; doğaya saygılı, hijyenik ve özenli bir şekilde yürütüyoruz. Her bir defin işlemi, yalnızca bir prosedür değil, onların yaşamına gösterilen son bir saygı ifadesidir.</p>
+          </div>
+        </div>
+      </div>
 
-      <div class="rounded-2xl border border-border bg-card p-8 transition-shadow hover:shadow-lg">
-        <div class="inline-flex rounded-xl bg-primary/10 p-3 text-primary"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="m17 14 3 3.3a1 1 0 0 1-.7 1.7H4.7a1 1 0 0 1-.7-1.7L7 14h-.3a1 1 0 0 1-.7-1.7L9 9h-.2A1 1 0 0 1 8 7.3L12 3l4 4.3a1 1 0 0 1-.8 1.7H15l3 3.3a1 1 0 0 1-.7 1.7H17Z"/><path d="M12 22v-3"/></svg></div>
-        <h3 class="mt-5 text-2xl font-medium text-card-foreground">Mezar Yeri Tahsisi</h3>
-        <p class="mt-3 leading-relaxed text-muted-foreground">Yeşillikler içinde, bakımlı ve özel alanlarda son yolculuk için huzurlu bir yer.</p>
-        <ul class="mt-5 space-y-2 text-sm text-muted-foreground"><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span><span>Alanı birlikte geziyor, yeri siz seçiyorsunuz</span></li><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span><span>Ağaç altı, güneşli veya yol kenarı seçenekleri</span></li><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span><span>Tahsis edilen yer süresiz olarak size ait kalır</span></li></ul>
+      <!-- 2. Özenli Pet Mezarlığı Hizmeti -->
+      <div class="flex flex-col rounded-2xl border border-border bg-card overflow-hidden transition-shadow hover:shadow-lg">
+        <div class="h-48 w-full bg-muted flex items-center justify-center text-muted-foreground text-sm border-b border-border">
+          <span>Görsel Alanı</span>
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="text-xl font-semibold text-card-foreground">Özenli Pet Mezarlığı Hizmeti</h3>
+            <p class="mt-3 text-sm leading-relaxed text-muted-foreground">Huzur Hakkı olarak, kaybettiğiniz dostlarınıza sadece bir mezar yeri değil; doğaya saygılı, düzenli, bakımlı ve her yönüyle huzur veren bir anı alanı sunuyoruz. Bizim için her mezar, yalnızca bir toprak parçası değil; içinde bir ömrün izlerini, bir sevginin sessiz hatırasını barındıran kutsal bir noktadır.</p>
+          </div>
+        </div>
       </div>
-      <div class="rounded-2xl border border-border bg-card p-8 transition-shadow hover:shadow-lg">
-        <div class="inline-flex rounded-xl bg-primary/10 p-3 text-primary"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/></svg></div>
-        <h3 class="mt-5 text-2xl font-medium text-card-foreground">Saygın Defin Hizmetleri</h3>
-        <p class="mt-3 leading-relaxed text-muted-foreground">Sevdiklerinizi özen ve saygıyla son yolculuğuna uğurluyoruz.</p>
-        <ul class="mt-5 space-y-2 text-sm text-muted-foreground"><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span><span>Uygun derinlikte ve kurallara uygun defin</span></li><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span><span>İsterseniz siz de yanımızda olabilirsiniz</span></li><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span><span>Vedalaşma için acele ettirmiyoruz</span></li></ul>
+
+      <!-- 3. Evden Alım Hizmeti -->
+      <div class="flex flex-col rounded-2xl border border-border bg-card overflow-hidden transition-shadow hover:shadow-lg">
+        <div class="h-48 w-full bg-muted flex items-center justify-center text-muted-foreground text-sm border-b border-border">
+          <span>Görsel Alanı</span>
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="text-xl font-semibold text-card-foreground">Evden alım hizmeti</h3>
+            <p class="mt-3 text-sm leading-relaxed text-muted-foreground">Vefat eden evcil dostunuzu kaybettiğiniz o zor anlarda, hem duygusal olarak zorlanmanız hem de ne yapacağınızı bilememeniz çok doğal. Huzur Hakkı olarak, bu süreci sizin için olabildiğince kolaylaştırmak ve dostunuza yakışır bir veda sağlamak amacıyla, Bursa ve çevre illerden evcil hayvan cenazelerini belirttiğiniz adresten büyük bir özenle teslim alıyoruz.</p>
+          </div>
+        </div>
       </div>
-      <div class="rounded-2xl border border-border bg-card p-8 transition-shadow hover:shadow-lg">
-        <div class="inline-flex rounded-xl bg-primary/10 p-3 text-primary"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="M12 5a3 3 0 1 1 3 3m-3-3a3 3 0 1 0-3 3m3-3v1M9 8a3 3 0 1 0 3 3M9 8h1m5 0a3 3 0 1 1-3 3m3-3h-1m-2 3v-1"/><circle cx="12" cy="8" r="2"/><path d="M12 10v12"/><path d="M12 22c4.2 0 7-1.667 7-5-4.2 0-7 1.667-7 5Z"/><path d="M12 22c-4.2 0-7-1.667-7-5 4.2 0 7 1.667 7 5Z"/></svg></div>
-        <h3 class="mt-5 text-2xl font-medium text-card-foreground">Anma ve Ziyaret Düzenlemesi</h3>
-        <p class="mt-3 leading-relaxed text-muted-foreground">Özel günlerde anma törenleri ve ziyaret öncesi alan hazırlığı.</p>
-        <ul class="mt-5 space-y-2 text-sm text-muted-foreground"><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span><span>Mezar taşına dostunuzun adı yazılır</span></li><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span><span>Doğum günü ve yıl dönümü için alan hazırlığı</span></li><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span><span>Ziyaret için randevu gerekmez</span></li></ul>
+
+      <!-- 4. Şifreli Ziyaret İzni -->
+      <div class="flex flex-col rounded-2xl border border-border bg-card overflow-hidden transition-shadow hover:shadow-lg">
+        <div class="h-48 w-full bg-muted flex items-center justify-center text-muted-foreground text-sm border-b border-border">
+          <span>Görsel Alanı</span>
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="text-xl font-semibold text-card-foreground">Şifreli Ziyaret İzni</h3>
+            <p class="mt-3 text-sm leading-relaxed text-muted-foreground">Huzur Hakkı mezarlık alanı, her yönüyle korunaklı ve saygı çerçevesinde tasarlanmıştır. Bu alan, yalnızca yetkilendirilmiş kişilerin erişimine açık olup, tamamen mahremiyet esasına dayalı bir sistemle korunmaktadır. Çünkü bizce, bir canlının sonsuzluğa uğurlandığı yer, herkesin kolayca girip çıkabileceği bir alan değil; özel, güvenli ve sadece onun yakınlarına ait bir mekân olmalıdır.</p>
+          </div>
+        </div>
       </div>
-      <div class="rounded-2xl border border-border bg-card p-8 transition-shadow hover:shadow-lg">
-        <div class="inline-flex rounded-xl bg-primary/10 p-3 text-primary"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg></div>
-        <h3 class="mt-5 text-2xl font-medium text-card-foreground">7/24 Bakım ve Güvenlik</h3>
-        <p class="mt-3 leading-relaxed text-muted-foreground">Günün her saati açık, düzenli bakımı yapılan ve güvenli bir mezarlık alanı.</p>
-        <ul class="mt-5 space-y-2 text-sm text-muted-foreground"><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span><span>Çevrili ve korunaklı alan</span></li><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span><span>Düzenli çim biçimi ve temizlik</span></li><li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span><span>Gece gündüz ulaşabileceğiniz bir telefon</span></li></ul>
+
+      <!-- 5. Acil Çağrı Merkezi -->
+      <div class="flex flex-col rounded-2xl border border-border bg-card overflow-hidden transition-shadow hover:shadow-lg">
+        <div class="h-48 w-full bg-muted flex items-center justify-center text-muted-foreground text-sm border-b border-border">
+          <span>Görsel Alanı</span>
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="text-xl font-semibold text-card-foreground">Acil Çağrı Merkezi</h3>
+            <p class="mt-3 text-sm leading-relaxed text-muted-foreground">Hayatın en beklenmedik anlarından biri, sevdiğimiz bir canlının aramızdan ansızın ayrılmasıdır. Böyle bir anda ne yapacağınızı bilememek, duygusal olarak çökmek ve yalnız hissetmek oldukça doğaldır. İşte tam da bu sebeple, Huzur Hakkı olarak siz ne zaman ihtiyaç duyarsanız, o an yanınızda olabilmek için 7 gün 24 saat kesintisiz hizmet veren acil çağrı hattımızla hizmetinizdeyiz.</p>
+          </div>
+        </div>
       </div>
+
+      <!-- 6. Güvenli ve Ulaşılabilir Alan -->
+      <div class="flex flex-col rounded-2xl border border-border bg-card overflow-hidden transition-shadow hover:shadow-lg">
+        <div class="h-48 w-full bg-muted flex items-center justify-center text-muted-foreground text-sm border-b border-border">
+          <span>Görsel Alanı</span>
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="text-xl font-semibold text-card-foreground">Güvenli ve Ulaşılabilir Alan</h3>
+            <p class="mt-3 text-sm leading-relaxed text-muted-foreground">Huzur Hakkı olarak, yalnızca bir mezar yeri değil; doğayla iç içe, ulaşımı kolay ve uzun vadeli koruma altında tutulan özel bir alan sunuyoruz. Mezarlığımız, şehir merkezinden kopmadan, aynı zamanda huzurlu bir doğal çevrede yer alır. Bu sayede, sevdiklerinize ulaşmak için uzun mesafeler kat etmenize gerek kalmadan, dilediğiniz an yanlarında olabilirsiniz.</p>
+          </div>
+        </div>
       </div>
+
+    </div>
     </div>
   </section>
 
